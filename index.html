@@ -10,28 +10,51 @@
 </head>
 
 <body>
-    How did we do?
-
-    Please let us know how we did with your support request. All feedback is appreciated
-    to help us improve our offering!
-
-    1 2 3 4 5
-
-    Submit
-
-    <!-- Rating state end -->
-
-    <!-- Thank you state start -->
-
-    You selected
-    <!-- Add rating here --> out of 5
-
-    Thank you!
-
-    We appreciate you taking the time to give a rating. If you ever need more support,
-    don’t hesitate to get in touch!
-
-    <!-- Thank you state end -->
+    <main class="main">
+        <!-- Rating state end -->
+        <section class="rating">
+            <div class="container">
+                <img src="src/img/icon-star.svg" alt="icon-star">
+                <h1>How did we do?</h1>
+                <p>Please let us know how we did with your support request. All feedback is appreciated to help us
+                    improve
+                    our offering!</p>
+                <div class="rating__stars">
+                    <div class="rating__stars__item">
+                        <input type="radio" name="rating" id="rating-1" value="1">
+                        <label for="rating-1">1</label>
+                    </div>
+                    <div class="rating__stars__item">
+                        <input type="radio" name="rating" id="rating-2" value="2">
+                        <label for="rating-2">2</label>
+                    </div>
+                    <div class="rating__stars__item">
+                        <input type="radio" name="rating" id="rating-3" value="3">
+                        <label for="rating-3">3</label>
+                    </div>
+                    <div class="rating__stars__item">
+                        <input type="radio" name="rating" id="rating-4" value="4">
+                        <label for="rating-4">4</label>
+                    </div>
+                    <div class="rating__stars__item">
+                        <input type="radio" name="rating" id="rating-5" value="5">
+                        <label for="rating-5">5</label>
+                    </div>
+                </div>
+                <div class="rating__submit">
+                    <button class="btn">Submit</button>
+                </div>
+            </div>
+        </section>
+        <!-- Thank you state start -->
+        <section class="thank-you">
+            <div class="container">
+                <h1>Thank you!</h1>
+                <p class="select">You selected</p>
+                <p>Your feedback is greatly appreciated. We will get back to you as soon as possible.</p>
+            </div>
+        </section>
+    </main>
     <script src="src/js/app.js"></script>
 </body>
 
