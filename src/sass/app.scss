@@ -19,7 +19,7 @@ body {
 }
 
 .rating {
-    display: flex;
+    display: none;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -95,13 +95,47 @@ body {
     }
 }
 
-
 .thank-you {
-    display: none;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-bottom: size(16);
-    background-color: $veryDarkBlue;
+    background-color: darken($primary, 3.6%);
+    width: size(348);
+    height: size(333);
+
+    border-radius: size(18);
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: size(21);
+        text-align: center;
+        h1 {
+            font-size: size(24);
+            font-weight: 700;
+            margin-bottom: size(16);
+        }
+        p{
+            font-size: size(15);
+            font-weight: 500;
+            margin-bottom: size(27);
+            color: $lighGrey;
+        }
+        img {
+            width: size(150);
+            height: size(150);
+        }
+        .select {
+            background-color: $darkBlue;
+            border-radius: size(18);
+            color: $orange;
+            font-size: size(15);
+            padding: size(3) size(12) size(3) size(12);
+            margin-bottom: size(21);
+        }
+    }
 }
 

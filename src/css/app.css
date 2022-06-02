@@ -81,7 +81,7 @@ body {
 }
 
 .rating {
-  display: flex;
+  display: none;
   flex-direction: row;
   justify-content: center;
   align-items: center;
@@ -156,12 +156,46 @@ body {
 }
 
 .thank-you {
-  display: none;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-bottom: 1.0666666667rem;
-  background-color: hsl(216deg, 12%, 8%);
+  background-color: #1e242c;
+  width: 23.2rem;
+  height: 22.2rem;
+  border-radius: 1.2rem;
+}
+.thank-you .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1.4rem;
+  text-align: center;
+}
+.thank-you .container h1 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 1.0666666667rem;
+}
+.thank-you .container p {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 1.8rem;
+  color: hsl(217deg, 12%, 63%);
+}
+.thank-you .container img {
+  width: 10rem;
+  height: 10rem;
+}
+.thank-you .container .select {
+  background-color: hsl(213deg, 19%, 18%);
+  border-radius: 1.2rem;
+  color: hsl(25deg, 97%, 53%);
+  font-size: 1rem;
+  padding: 0.2rem 0.8rem 0.2rem 0.8rem;
+  margin-bottom: 1.4rem;
 }
 
 /*# sourceMappingURL=app.css.map */
